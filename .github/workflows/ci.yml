@@ -36,7 +36,7 @@ jobs:
         run: pnpm lint
 
       - name: Run Prettier (check only)
-        run: pnpm format -- --check
+        run: pnpm format:check
 
   typecheck:
     name: TypeCheck
